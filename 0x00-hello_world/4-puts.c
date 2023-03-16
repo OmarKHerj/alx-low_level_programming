@@ -2,6 +2,10 @@
 
 /**
  * this programmeprint using function puts
+ * main - entry point
+ *
+ * return - return to 0 (succcess)
+ *
  */
 
 
