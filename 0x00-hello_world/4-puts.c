@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- * this programmeprint using function puts
- * main - entry point
+ * main - Entry point
  *
- * return - return to 0 (succcess)
- *
+ * Return: Always 0 (Success)
  */
 
 
