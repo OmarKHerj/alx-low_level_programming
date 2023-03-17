@@ -12,5 +12,5 @@ for (x = 122; x < 96; x--)
 putchar(x);
 }
 putchar('\n');
-return (0)
+return (0);
 }
