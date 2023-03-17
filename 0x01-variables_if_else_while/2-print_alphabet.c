@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<stdlib.h>
 /**
  * main - print alphabet in lower cases
  *
@@ -11,8 +10,8 @@ char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
 int x;
 for (x = 0; x < 26; x++)
 {
-	putchar(alpha[x]);
+putchar(alpha[x]);
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
