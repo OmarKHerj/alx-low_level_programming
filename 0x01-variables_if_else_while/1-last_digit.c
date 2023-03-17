@@ -2,12 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - print the last digit of the number stored and check 5 , 0 and 6 
+ * main - print the last digit of the number stored and check 5 , 0 and 6
+ *
  * return : always 0 (success)
  */
 int main(void)
 {
 	int n, m;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	m = n % 10;
