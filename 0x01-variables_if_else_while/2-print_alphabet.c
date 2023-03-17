@@ -1,10 +1,10 @@
 #include<stdio.h>
 
 /**
- * main - print alphabet in lower cases
+ * main - Prints the alphabet.
  *
- * return: return 0
- */
+ * Return: Always 0 (Success)
+ */ 
 int main(void)
 {
 char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
