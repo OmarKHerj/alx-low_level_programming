@@ -17,5 +17,6 @@ for (x = 0;x <26;x++)
 {
 putchar(beta[x]);
 }
+putchar('\n');
 return 0
 }	
