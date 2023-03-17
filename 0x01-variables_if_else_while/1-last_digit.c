@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - print the last digit of the number stored and check 5 , 0 and 6
+ * main - determine if is greater than 5 or is less than 6 or is 0
  *
  * return : always 0 (success)
  */
