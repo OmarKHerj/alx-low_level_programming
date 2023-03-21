@@ -23,7 +23,7 @@ _putchar(z + 48);
 else
 {
 _putchar((z / 10) + 48);
-putchar((z % 10) + 48);
+_putchar((z % 10) + 48);
 }
 }
 }
