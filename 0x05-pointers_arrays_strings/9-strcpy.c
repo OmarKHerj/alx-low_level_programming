@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _strcpy -  copies the string pointed to by src including the terminating null byte
+ * _strcpy -  copies the string pointed to by src including the terminating
  * @dest: destination
  * @src: source
  * Return: nothing
@@ -9,6 +9,7 @@
 char *_strcpy(char *dest, char *src)
 {
 	int x = 0;
+
 	while (x >= 0)
 	{
 		*(dest + x) = *(src + x);
