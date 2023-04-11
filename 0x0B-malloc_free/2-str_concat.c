@@ -22,7 +22,7 @@
 
 	for (y = 0; s2[y] != '\0'; y++)
 		;
-    l = x + y;
+    k = x + y;
 	s = malloc((sizeof(char) * l) + 1);
 	if (ptr == NULL)
 	{
