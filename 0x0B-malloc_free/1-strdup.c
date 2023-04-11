@@ -6,7 +6,7 @@
  *
  * Return: pointer of an array of chars
  */
- char *_strdup(char *str)
+char *_strdup(char *str)
 {
 	char *ptr;
 	int x, y = 0;
