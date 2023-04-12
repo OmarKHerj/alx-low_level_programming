@@ -37,7 +37,7 @@ char *argstostr(int ac, char **av)
 
 		while (s[z])
 		{
-			ptr[j] = s[z];
+			ptr[y] = s[z];
 			z++;
 			y++;
 		}
