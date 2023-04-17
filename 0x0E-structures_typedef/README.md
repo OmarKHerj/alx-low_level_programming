@@ -1,0 +1,1 @@
+about struct and type
