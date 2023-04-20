@@ -10,22 +10,21 @@
 int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
-	{ "+", op_add },
-	{ "-", op_sub },
-	{ "*", op_mul },
-	{ "/", op_div },
-	{ "%", op_mod },
-	{ NULL, NULL }
+		{"+", op_add},
+		{"-", op_sub},
+		{"*", op_mul},
+		{"/", op_div},
+		{"%", op_mod},
+		{NULL, NULL}
 	};
 	int x = 0;
 
-	while (x < 5)
+	while (x < 10)
 	{
-		if (strcmp(s, ops[x].op) == 0)
-			return (ops[x].f);
-
+		if (s[0] == ops->op[x])
+			break;
 		x++;
 	}
 
-	return (0);
+	return (ops[x / 2].f);
 }
