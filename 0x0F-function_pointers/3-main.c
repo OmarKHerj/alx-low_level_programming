@@ -1,13 +1,12 @@
 #include "3-calc.h"
 
 /**
- * main - check the code 
+ * main - check the code
  * @argc: argument count.
  * @argv: argument vector.
  *
- * Return: 0
+ * Return: Always 0.
  */
- 
 int main(int argc, char *argv[])
 {
 	int (*oprt)(int, int);
