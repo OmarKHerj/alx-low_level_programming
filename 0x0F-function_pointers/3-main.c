@@ -1,7 +1,7 @@
 #include "3-calc.h"
 
 /**
- * main - check the code
+ * main - check the code if work
  * @argc: argument count.
  * @argv: argument vector.
  *
