@@ -20,7 +20,7 @@ return (NULL);
 xp->str = strdup(str);
 
 for (numchar = 0; str[numchar]; numchar++)
-		;
+;
 
 xp->len = numchar;
 xp->next = NULL;
