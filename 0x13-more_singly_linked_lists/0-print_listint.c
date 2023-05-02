@@ -12,7 +12,7 @@ size_t numbnodes = 0;
 
 while (h != NULL)
 {
-printf("%d\n", h->n);
+printf("%lu\n", h->n);
 h = h->next;
 numbnodes++;
 }
