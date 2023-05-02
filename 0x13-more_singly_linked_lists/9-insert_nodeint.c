@@ -14,7 +14,7 @@
 istint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
 unsigned int x;
-listint_t *tmp, *new_one;
+listint_t *tmp, *new;
 
 if (head == NULL)
 return (NULL);
@@ -28,17 +28,17 @@ tmp = tmp->next;
 if (tmp == NULL)
 return (NULL);
 }
-new_one = malloc(sizeof(listint_t));
-if (new_one == NULL)
+new = malloc(sizeof(listint_t));
+if (new == NULL)
 return (NULL);
-new_one->n = n;
+new->n = n;
 if (idx == 0)
 {
-new_one->next = *head;
-*head = new_one;
-return (new_one);
+new->next = *head;
+*head = new;
+return (new);
 }
-new_one->next = tmp->next;
-tmp->next = new_one;
-return (new_one);
+new->next = tmp->next;
+tmp->next = new;
+return (new);
 }
