@@ -18,8 +18,8 @@ if (buffer == NULL)
 return (0);
 
 open = open(filename, O_RDONLY);
-read = read(opens, buffer, letters);
-write = write(STDOUT_FILENO, buffer, reads);
+read = read(open, buffer, letters);
+write = write(STDOUT_FILENO, buffer, read);
 
 if (open == -1 || read == -1 || write == -1 || write != read)
 {
