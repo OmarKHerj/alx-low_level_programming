@@ -16,11 +16,10 @@ if (filename == NULL)
 return (-1);
 
 if (text_content != NULL)
-text_content = "";
-
-
-for (x = 0; text_content[x]; x++)
-;
+{
+for (x = 0; text_content[x];)
+x++;
+}
 
 op = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
 wr = write(op, text_content, x);
